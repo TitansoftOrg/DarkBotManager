@@ -110,28 +110,29 @@ Validate Paths: Checks if all configured paths are valid
 
 Folder Structure
 Your bot root should follow this structure:
-
-text
-BotRoot/
-├── BotInstance1/
-│   ├── DarkBot.jar
-│   ├── logs/
-│   └── plugins/
-│       ├── old/
-│       └── updates/
-├── BotInstance2/
-│   ├── DarkBot.jar
-│   ├── logs/
-│   └── plugins/
-│       ├── old/
-│       └── updates/
-└── BotInstance3/
-    ├── DarkBot.jar
-    ├── logs/
-    └── plugins/
-        ├── old/
+```bash
+BotRoot/  
+├── BotInstance1/  
+│   ├── DarkBot.jar  
+│   ├── logs/  
+│   └── plugins/  
+│       ├── old/  
+│       └── updates/  
+├── BotInstance2/  
+│   ├── DarkBot.jar  
+│   ├── logs/  
+│   └── plugins/  
+│       ├── old/  
+│       └── updates/  
+└── BotInstance3/  
+    ├── DarkBot.jar  
+    ├── logs/  
+    └── plugins/  
+        ├── old/  
         └── updates/
-        
+and more if you need
+```
+
 ## 🗂️ Configuration Files
 The application stores configuration in:
 
