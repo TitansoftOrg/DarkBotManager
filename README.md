@@ -83,7 +83,9 @@ bash
 `python DarkBotManager.py`
 
 🖥️ Usage
+
 Initial Setup
+
 Launch the application
 
 Click the Settings button (gear icon)
